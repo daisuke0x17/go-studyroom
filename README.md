@@ -7,7 +7,7 @@
 6. [Goの開発ツール](https://github.com/daisuke23bubu/go-studyroom/tree/main/1.%20Go%E3%81%AB%E8%A7%A6%E3%82%8C%E3%82%8B/1.6%20Go%E3%81%AE%E9%96%8B%E7%99%BA%E3%83%84%E3%83%BC%E3%83%AB)
 
 ## 2. 基本構文
-1. 変数
-2. 定数
-3. 演算子
+1. [変数](https://github.com/daisuke23bubu/go-studyroom/tree/main/2.%20%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87/2.1%20%E5%A4%89%E6%95%B0)
+2. [定数](https://github.com/daisuke23bubu/go-studyroom/tree/main/2.%20%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87/2.2%20%E5%AE%9A%E6%95%B0)
+3. [演算子](https://github.com/daisuke23bubu/go-studyroom/tree/main/2.%20%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87/2.3%20%E6%BC%94%E7%AE%97%E5%AD%90)
 4. 制御構文
