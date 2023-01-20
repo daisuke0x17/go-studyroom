@@ -1,4 +1,4 @@
-## 条件分岐: if
+## 条件分岐：if
 - 指定した条件で分岐
   - `else`は条件にアタはまらない場合
   - `else`の後に`if`をさらに追加可能
@@ -32,3 +32,24 @@ if a := f(); a > 0 {
 ※Goはコンパイル時に後ろに改行があると自動でセミコロンを代入
 
 ※改行の前が`{`などの文字だと差し込まない
+
+## 条件分岐：switch
+- breakは不要
+  - 何も記述しないと`break`になる
+- caseをまたぎたいときは`fallthrough`
+```go
+switch a {
+case 1, 2:
+	fmt.Println("a is 1 or 2")
+default:
+	fmt.Println("default")
+}
+```
+- caseに式が利用可能
+  - 大量の`if-else`をつなぐより見通しGood
+```go
+switch{
+case a == 1:
+	fmt.Println("a is 1")
+}
+```
