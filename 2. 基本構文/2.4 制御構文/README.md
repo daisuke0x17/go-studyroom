@@ -34,9 +34,9 @@ if a := f(); a > 0 {
 ※改行の前が`{`などの文字だと差し込まない
 
 ## 条件分岐：switch
-- breakは不要
+- `break`は不要
   - 何も記述しないと`break`になる
-- caseをまたぎたいときは`fallthrough`
+- `case`をまたぎたいときは`fallthrough`
 ```go
 switch a {
 case 1, 2:
@@ -45,11 +45,54 @@ default:
 	fmt.Println("default")
 }
 ```
-- caseに式が利用可能
+- `case`に式が利用可能
   - 大量の`if-else`をつなぐより見通しGood
 ```go
 switch{
 case a == 1:
 	fmt.Println("a is 1")
+}
+```
+
+## 繰り返し：for
+- 繰り返しは`for`のみ
+````go
+// 初期値;継続条件;更新文;
+for i := 0; i <= 100; i = i + 1 {
+}
+
+// 継続条件のみ
+for i <= 100 {
+}
+
+// 無限ループ
+for {
+}
+
+// rangeを利用した繰り返し
+for i, v := range []int{1, 2, 3}{
+}
+````
+- `break`によるループからの抜け出し
+  - Goには`goto`も存在
+```go
+// breakによる無限ループの脱出
+for {
+	if i%2 == 1 {
+		break
+    }
+}
+
+// ラベル指定のbreak
+func main(){
+	var i int
+LOOP:
+	for {
+		switch {
+		case i%2 == 1:
+			break LOOP
+        }
+		i++
+    }   
 }
 ```
