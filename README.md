@@ -10,4 +10,4 @@
 1. [変数](https://github.com/daisuke23bubu/go-studyroom/tree/main/2.%20%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87/2.1%20%E5%A4%89%E6%95%B0)
 2. [定数](https://github.com/daisuke23bubu/go-studyroom/tree/main/2.%20%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87/2.2%20%E5%AE%9A%E6%95%B0)
 3. [演算子](https://github.com/daisuke23bubu/go-studyroom/tree/main/2.%20%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87/2.3%20%E6%BC%94%E7%AE%97%E5%AD%90)
-4. 制御構文
+4. [制御構文](https://github.com/daisuke23bubu/go-studyroom/tree/main/2.%20%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87/2.4%20%E5%88%B6%E5%BE%A1%E6%A7%8B%E6%96%87)
