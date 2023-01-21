@@ -1,3 +1,8 @@
+# Gopher道場
+個人的な備忘録です。動画ベースだと復習が苦しいので文字に起こしました。
+
+誰かの役に立てば嬉しいです。
+
 ## 1. Goに触れる
 1. [Goとは？](https://github.com/daisuke23bubu/go-studyroom/tree/main/1.%20Go%E3%81%AB%E8%A7%A6%E3%82%8C%E3%82%8B/1.1%20Go%E3%81%A8%E3%81%AF%EF%BC%9F)
 2. [Goが利用できる領域](https://github.com/daisuke23bubu/go-studyroom/tree/main/1.%20Go%E3%81%AB%E8%A7%A6%E3%82%8C%E3%82%8B/1.2%20Go%E3%81%8C%E5%88%A9%E7%94%A8%E3%81%A7%E3%81%8D%E3%82%8B%E9%A0%98%E5%9F%9F)
