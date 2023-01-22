@@ -12,6 +12,7 @@ func init() {
 }
 
 func main() {
+	// init()	これはできない
 	fmt.Println("main")
 }
 
