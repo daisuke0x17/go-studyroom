@@ -18,6 +18,34 @@
   - つまりどの型の値も実装していることになる
   - JavaのObject型のような使い方が可能
  
+## 関数にインターフェースを実装
+- 関数にメソッドを持たせる
+  - 頻繁には使わないが、全く使わないわけでもない
+```go
+type Func func() string
+
+func(f Func) String() string{return f()}
+
+func main(){
+	var s fmt.Stringer = Func(func() string{
+		return "hi"
+    })
+	fmt.Println(s)
+}
+```
+- net/httpに良い例が存在
+```go
+// 関数の型を定義
+type HandlerFunc func(ResponseWriter, *Request)
+// 上で定義した型（関数）にメソッドを持たせる
+func (f HandlerFunc) ServeHTTP(w ResponseWriter, r *Request)
+
+// HandlerFuncはServeHTTPメソッドを持っているのでHandlerを実装したことになる！
+type Handler interface{
+    ServeHTTP(ResponseWriter, *Request)
+}
+```
+
 ## スライスとインタフェース
 - 実装していてもスライスは互換性がない
   - コピーは`for`を回すしかない
